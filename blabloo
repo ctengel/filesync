@@ -1,0 +1,10 @@
+https://docs.python.org/3/library/collections.html#collections.namedtuple
+https://requests-cache.readthedocs.io/en/latest/user_guide.html
+https://github.com/wglodek/dns-over-https
+https://2.python-requests.org//en/master/user/advanced/#transport-adapters
+https://www.tomechangosubanana.com/2017/forcing-python-requests-to-connect-to-a-specific-ip-address/
+https://stackoverflow.com/questions/22492484/how-do-i-get-the-ip-address-from-a-http-request-using-the-requests-library
+https://stackoverflow.com/questions/44531962/python-get-ip-from-http-request-using-requests-module
+https://stackoverflow.com/questions/22609385/python-requests-library-define-specific-dns
+https://pypi.org/project/doh-proxy/
+
