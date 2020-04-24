@@ -24,7 +24,7 @@ def mvlns(src, dst, verbose=True):
     os.symlink(dst, src)
 
 
-def moveold(src, dst, tm_thresh=3600, sz_thresh=3600):
+def moveold(src, dst, tm_thresh=1800, sz_thresh=2097152):
     """Move old large filex from src to dest"""
     assert os.path.isdir(src) and os.path.isdir(dst)
     abstm = time.time() - tm_thresh
