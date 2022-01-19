@@ -24,8 +24,7 @@ def movesome(src, dst, files, tm_thresh=1800, sz_thresh=2097152):
         if stt.st_size < sz_thresh:
             warnings.warn('{} is too small'.format(file))
             continue
-        if (stt.st_atime > abstm or stt.st_mtime > abstm or
-                stt.st_ctime > abstm):
+        if (stt.st_mtime > abstm or stt.st_ctime > abstm):
             warnings.warn('{} is too new'.format(file))
             continue
         mvln.mvlns(str(path), str(dp.joinpath(path.name)))
